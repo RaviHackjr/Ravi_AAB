@@ -47,7 +47,7 @@ class Var:
     FILE_STORE = int(getenv("FILE_STORE"))
     ADMINS = list(map(int, getenv("ADMINS", "").split()))
     SEND_STICKER = getenv('SEND_STICKER', 'True').lower() == 'true'
-    STICKER_ID = getenv('STICKER_URL', 'CAACAgUAAyEFAASONkiwAAIo-Wgh5TEAAeEO7-N-vwRUDsa8ULtBMAAC2hQAAoKXOFQpfnYq4DrQ8DYE')
+    STICKER_ID = getenv('STICKER_URL', 'CAACAgUAAyEFAASgAaywAAIrRWgUTnv8oPmkNTURJLgG3viWKaeHAALcEAAC3vioVI8x8-QnQkJbNgQ')
     STICKER_INTERVAL = int(getenv('STICKER_INTERVAL', 2))
     
     SEND_SCHEDULE = getenv("SEND_SCHEDULE", "False").lower() == "true"
