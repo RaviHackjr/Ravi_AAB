@@ -170,7 +170,7 @@ async def get_fsubs(uid, txtargs):
             continue
         txt += f"<b>{no}. Title :</b> <i>{cha.title}</i>\n  <b>Status :</b> <i>{sta}</i>\n\n"
     if len(txtargs) > 1:
-        btns.append([InlineKeyboardButton('🗂 Tʀʏ Aɢᴀɪɴ', url=f'https://t.me/OngoingNovaBot?start={txtargs[1]}')])
+        btns.append([InlineKeyboardButton('🗂 Tʀʏ Aɢᴀɪɴ', url=f'https://t.me/BlakiteX9AnimeBot?start={txtargs[1]}')])
     return txt, btns
 
 async def mediainfo(file, get_json=False, get_duration=False):
