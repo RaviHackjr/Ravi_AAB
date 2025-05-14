@@ -11,16 +11,15 @@ from .func_utils import handle_logs
 from .reporter import rep
 
 CAPTION_FORMAT = """
-<blockquote><b>✦<i> {title} </i>✦</b></blockquote>
-<b>╔━━━━━━━━━━━━━━━━━━━━━╗</b>
-<blockquote><b>⌲ 𝗦𝗲𝗮𝘀𝗼𝗻: <i>{anime_season}</b></i>
-<b>❍ 𝗘𝗽𝗶𝘀𝗼𝗱𝗲: <i>{ep_no}</i></b></blockquote>
-<blockquote><b>〄 𝗔𝘂𝗱𝗶𝗼: {lang}</i>
-❐ 𝗦𝘁𝗮𝘁𝘂𝘀: <i>{status}</i></b></blockquote>
-<blockquote><b>◎ 𝗧𝗼𝘁𝗮𝗹 𝗘𝗽𝗶𝘀𝗼𝗱𝗲𝘀: <i>{t_eps}</i>
-♡ 𝗚𝗲𝗻𝗿𝗲𝘀: <i>{genres}</i></b></blockquote>
-<b>╚━━━━━━━━━━━━━━━━━━━━━╝</b>
+<b><i><blockquote>➥ {title}</blockquote></i></b>
+
+<b>   ➪ Episode: {ep_no}</b>
+<b>   ➪ Quality: 480p | 720p | 1080p</b> 
+<b>   ➪ Audio: Japanese & English Sub</b>
+
+<b>   ☏ Powerd By : - @NineAnimeOfficial ☏</b>
 """
+
 
 GENRES_EMOJI = {"Action": "👊", "Adventure": choice(['🪂', '🧗‍♀']), "Comedy": "🤣", "Drama": " 🎭", "Ecchi": choice(['💋', '🥵']), "Fantasy": choice(['🧞', '🧞‍♂', '🧞‍♀','🌗']), "Hentai": "🔞", "Horror": "☠", "Mahou Shoujo": "☯", "Mecha": "🤖", "Music": "🎸", "Mystery": "🔮", "Psychological": "♟", "Romance": "💞", "Sci-Fi": "🛸", "Slice of Life": choice(['☘','🍁']), "Sports": "⚽️", "Supernatural": "🫧", "Thriller": choice(['🥶', '🔪','🤯'])}
 ANIME_GRAPHQL_QUERY = """
