@@ -199,7 +199,7 @@ async def get_animes(name, torrent, force=False):
                 await rep.report("Successfully Uploaded File into Channel...", "info")
                 
                 msg_id = msg.id
-                link = f"https://telegram.me/OngoingNovaBot?start={await encode('get-'+str(msg_id * abs(Var.FILE_STORE)))}"
+                link = f"https://telegram.me/BlakiteX9AnimeBot?start={await encode('get-'+str(msg_id * abs(Var.FILE_STORE)))}"
                 
                 if post_msg:
                     if len(btns) != 0 and len(btns[-1]) == 1:
