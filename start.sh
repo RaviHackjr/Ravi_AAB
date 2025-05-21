@@ -17,7 +17,9 @@ echo "Installing pymongo==4.3.3..."
 pip install --break-system-packages "pymongo==4.3.3"
 
 echo "Installing motor==3.1.1..."
-pip install --break-system-packages --upgrade "motor==3.1.1"
+pip install --break-system-packages "motor==3.1.1"
+
+pip install --break-system-packages --upgrade motor
 
 # Run the Python bot
 echo "Starting the Python bot..."
